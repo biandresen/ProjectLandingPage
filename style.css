@@ -91,7 +91,6 @@ body {
 .info {
     display: flex;
     flex-direction: column;
-    
     height: 480px;
     margin: 0px 230px;
     padding: 0px;
@@ -133,25 +132,99 @@ body {
     padding-top: 85px;
 }
 
+/* QUOTE */
 
-
-
-
-
-
-
-/*
-.quote {
+.quoteField {
     display: flex;
-    height: 300px;
+    justify-content: center;
+    align-items: center;
+    height: 480px;
+    margin: 0px 230px;
+    padding: 0px;
+    position: relative;
+    color: #1f2937;
     background-color: #E5E7EB;
+    font-size: 36px;
+    font-style: italic;
 }
 
+.quoteText {
+    display: flex;
+    flex-direction: column;
+}
+
+.quoteAuthor {
+    display: flex;
+    justify-content: end;
+    font-weight: 700;
+    font-size: 25px;
+    padding-top: 15px;
+}
+
+/* SIGN UP */
+ 
 .signUp {
     display: flex;
+    justify-content: center;
+    align-items: center;
     height: 300px;
+    margin: 0px 230px;
+    padding: 0px;
+    position: relative;
+    color: #1f2937;
+    background-color: #E5E7EB;
+    font-size: 24px;
+    font-style: italic;
     background-color: white;
 }
+
+.signUpBlock {
+    display: flex;
+    width: 1050px;
+    height: 155px;
+    border-radius: 10px;
+    background-color: #3882F6;
+    color: white;
+}
+
+.signUpText {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    margin-left: 150px;
+    padding-bottom: 0;
+    justify-content: center;
+    
+}
+
+.signUpHeader {
+    display: flex;
+    font-size: 26px;
+    font-weight: 700;
+}
+
+.signUpParagraph {
+    display: flex;
+    font-size: 20px;
+}
+
+
+#btn2 {
+    align-self: center;
+    margin-right: 120px;
+    width: 140px;
+    height: 35px;
+    padding: 5px;
+    border-radius: 10px;
+    border-width: 3px;
+    border-color: white;
+    background-color: #3882F6;
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+/*
 .footer {
     display: flex;
     height: 100px;
